@@ -1,61 +1,51 @@
+/* Define o estilo padrão da página */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 20px;
+  background-color: #f0f2f5;
+  margin: 20px;
+  padding: 0;
 }
 
-.container {
-  max-width: 500px;
-  margin: auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
+/* Estilo do título principal */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
+/* Estiliza os campos de entrada e botões */
 input, button {
+  display: block;
+  width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
+/* Estiliza o botão */
 button {
-  background: #4CAF50;
+  background-color: #4caf50;
   color: white;
-  font-weight: bold;
+  border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estiliza a lista de itens */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo de cada item da lista */
 li {
-  list-style: none;
-  background: #eee;
-  margin-top: 10px;
+  background-color: white;
   padding: 10px;
-  border-radius: 5px;
-  position: relative;
-}
-
-.vencido {
-  background-color: #f8d7da;
-}
-
-.proximo-vencimento {
-  background-color: #fff3cd;
-}
-
-.valido {
-  background-color: #d4edda;
-}
-
-.remove-btn {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  color: red;
-  cursor: pointer;
+  margin-bottom: 5px;
+  border-left: 5px solid #4caf50;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
