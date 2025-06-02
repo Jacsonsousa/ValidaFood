@@ -1,3 +1,4 @@
+![WhatsApp Image 2025-06-02 at 18 09 31](https://github.com/user-attachments/assets/ccfe90e0-4df3-4f58-b667-d28739e7300b)
 # ValidaFood 🥫
 
 ![ValidaFood Demo](https://user-images.githubusercontent.com/SEU-USER-ID/AQUI-COLE-A-URL-DA-IMAGEM.gif)
