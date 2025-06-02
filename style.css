@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  background: #eee;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.vencido {
+  background-color: #f8d7da;
+}
+
+.proximo-vencimento {
+  background-color: #fff3cd;
+}
+
+.valido {
+  background-color: #d4edda;
+}
+
+.remove-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+  cursor: pointer;
+}
